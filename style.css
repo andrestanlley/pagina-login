@@ -20,12 +20,13 @@ body {
 
 main.container{
     background-color: white;
-    max-width: 350px;
+    max-width: 850px;
     min-height: 40vh;
     padding: 2rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
+
 
 main h2{
     font-weight: 600;
@@ -146,6 +147,18 @@ form input[type="submit"]:hover{
     background: linear-gradient(to right, #56a7f2, #468aca);
 }
 
+.footer .social-field.twitter:hover{
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #468aca, #56a7f2);
+}
+
 .footer .social-field.facebook{
     background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+.footer .social-field.social-field.facebook:hover{
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #2a5298, #1e3c72);
 }
